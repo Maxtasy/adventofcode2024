@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-// < 7248
 fs.readFile('day05-input.txt', 'utf8', (error, data) => {
   if (error) {
     console.error(error);
